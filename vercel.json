@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "verify.py",
+      "src": "api/verify.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "verify.py"
+      "dest": "api/verify.py"
     }
   ]
 }

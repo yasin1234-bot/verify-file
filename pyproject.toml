@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "verify.py (variable: app)"
